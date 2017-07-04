@@ -11,14 +11,9 @@
 }
 
 
-/*.information{*/
-    /*width: 96%;*/
-    /*border: 1px solid black;*/
-
-/*}*/
 
 .about {
-    font-size: 24px;
+    font-size: 18px;
     width: 42%;
     margin: 1%;
     padding: 1%;
@@ -27,12 +22,15 @@
 
 
 .profile_image {
-    width: 50%;
+    width: 48%;
     margin: 1%;
     padding: 1%;
     float: left;
 }
 
+img {
+    width: 100%;
+}
 .languages {
     clear: both;
     float: left;
@@ -143,9 +141,14 @@
     float: left;
 }
 
-.form {
-    border-radius: 5px;
-    padding: 20px;
+.input {
+
+    display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    border-radius: 4px;
 }
 
 
@@ -158,4 +161,6 @@ footer {
     color: white;
     text-align: center;
 }
+
+
 
