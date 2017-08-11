@@ -1,7 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: inherit;
 }
+
+
+#container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
 
 .contact {
     margin: 20px;
@@ -17,15 +30,11 @@ body {
     clear: both;
 }
 
-#container {
-    width: 800px;
-    margin: 40px auto 60px;
-}
-
 #pic {
-    float: right;
-    margin: 80px 28px 0 0;
+    float: left;
+    margin: 65px 30px 30px 42px;
     height: 300px;
+    max-width: 100%;
 }
 h1 {
     margin: 0 0 16px 0;
@@ -53,7 +62,7 @@ h2 span {
 }
 
 p {
-    margin: 0 0 16px 0;
+    margin: 20px 0 16px 0;
 }
 
 a {
@@ -72,7 +81,7 @@ ul {
 }
 
 #about {
-    width: 720px;
+    width: 72%;
     float: left;
     margin: 5%;
 }
@@ -85,12 +94,16 @@ ul {
     color: #666;
 }
 
+dl {
+    margin: 10px;
+}
+
 dt {
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
     text-align: right;
-    padding: 0 26px 0 0;
+    padding: 0 20px 0 0;
     width: 150px;
     float: left;
     height: 100px;
@@ -99,7 +112,9 @@ dt {
 
 dd {
     width: 600px;
-    float: right;
+    margin: 4px;
+    float: left;
+
 }
 
 dd.clear {
@@ -107,3 +122,10 @@ dd.clear {
     margin: 0;
     height: 15px;
 }
+
+.experience {
+    width: 61%;
+}
+
+
+
